@@ -9,11 +9,11 @@ function euroToPounds(){
 
 }
 
-fucntion euroToUsd(){
+function euroToUsd(){
 	var amount = parseInt(document.getElementById("value1").value);
 	
 	var usd = amount * 1.06;
-	var message2 = amount + ' euros converts to ' usd;
+	var message2 = amount + ' euros converts to ' + usd;
 	
 	
 }	
