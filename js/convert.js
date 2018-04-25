@@ -6,8 +6,10 @@ function euroToPounds(){
   var pounds = amount * 0.86;
   var message = amount + ' euros converts to ' + pounds + ' sterling.';
   
+
+  
   console.log(message);
-  doc.getElementById("resultsentence").innerHTML = message;
+  document.getElementById("resultsentence").innerHTML = message;
 }
 
 function euroToUsd(){
@@ -17,7 +19,7 @@ function euroToUsd(){
 	var message2 = amount + ' euros converts to ' + usd + ' usd';
 	
 	console.log(message2);
-	doc.getElementById("resultsentence").innerHTML = message2;
+	document.getElementById("resultsentence").innerHTML = message2;
 }	
 
 function euroToYen(){
@@ -28,7 +30,7 @@ function euroToYen(){
 	var message3 = amount + ' euros converts to ' + yen + ' yen';
 	
 	console.log(message3);
-	doc.getElementById("resultsentence").innerHTML = message3;
+	document.getElementById("resultsentence").innerHTML = message3;
 	
 }
 
@@ -40,7 +42,7 @@ function euroToBitcoin(){
 	var message4 = amount + ' euros converts to ' + bitcoin + ' bitcoin ';
 	
 	console.log(message4);
-	doc.getElementById("resultsentence").innerHTML = message4;
+	document.getElementById("resultsentence").innerHTML = message4;
 }
 
 
